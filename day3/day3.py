@@ -6,7 +6,6 @@ forest = []
 with open(sys.argv[1], 'r') as fp:
     for line in fp:
         forest.append(line.replace("\n", ""))
-fp.close()
 
 slopelist = []
 for slope in [(1,1),(3,1),(5,1),(7,1),(1,2)]:
