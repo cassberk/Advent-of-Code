@@ -9,7 +9,6 @@ with open(sys.argv[1], 'r') as fp:
 
 slopelist = []
 for slope in [(1,1),(3,1),(5,1),(7,1),(1,2)]:
-
     
     tree_cnt = 0
     iter = slope[0]
