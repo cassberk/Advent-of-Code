@@ -1,5 +1,5 @@
 """
-usage: $ python day7.py <input-file>
+usage: $ python day8.py <input-file>
 """
 
 import sys
